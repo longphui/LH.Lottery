@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="FileHelpers" Version="3.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.0" />
+    <PackageReference Include="Microsoft.ML" Version="0.7.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.3" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.111" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lottery.Common\Lottery.Common.csproj" />
+    <ProjectReference Include="..\Lottery.Open\Lottery.Open.csproj" />
+  </ItemGroup>
+
+</Project>
